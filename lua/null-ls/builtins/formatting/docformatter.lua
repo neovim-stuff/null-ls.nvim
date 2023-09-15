@@ -13,7 +13,9 @@ return h.make_builtin({
     filetypes = { "python" },
     generator_opts = {
         command = "docformatter",
-        args = { "-" },
+        -- black compatibility added by default because 74 cols is very restrictive
+        -- in modern times
+        args = { "--black", "-" },
         to_stdin = true,
     },
     factory = h.formatter_factory,
