@@ -3042,7 +3042,7 @@ local sources = { null_ls.builtins.formatting.docformatter }
 - Filetypes: `{ "python" }`
 - Method: `formatting`
 - Command: `docformatter`
-- Args: `{ "-" }`
+- Args: `{ "--black", "-" }`
 
 ### [dprint](https://dprint.dev/)
 
