@@ -5,11 +5,14 @@
 }
 -->
 
-# ARCHIVED
+# This is a community maintained repo
 
-null-ls is now archived and will no longer receive updates. Please see
-[this issue](https://github.com/jose-elias-alvarez/null-ls.nvim/issues/1621) for
-details.
+Seeing how many people miss `null-ls` since it was archived by its original author,
+this repository aims to take over maintainance of the package by the community.
+Anyone who merges a PR in this repo will be added as a maintainer. Anyone who merged a PR
+in the original repo can request to become a maintainer here as well.
+The aim is not for one person to take over the burden of maintenance, but to share the workload.
+This is a bit of an experiment, let's see if it works!
 
 # null-ls.nvim
 
